@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<title>LemonStars</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header>
+<h1>🍋 LemonStars</h1>
+<div id="user-info">
+Nome: <span id="user-name">Usuário</span> |
+Saldo: <span id="user-balance">1000</span> MZN |
+<a href="#" onclick="showMenu()">Menu ☰</a>
+</div>
+</header>
+
+<nav id="menu" style="display:none;">
+<ul>
+<li><a href="#">Perfil</a></li>
+<li><a href="#">Formas de Depósito</a></li>
+<li><a href="#">Formas de Levantamento</a></li>
+<li><a href="#">Atendimento ao Cliente</a></li>
+<li><a href="#">Fala Conosco</a></li>
+</ul>
+</nav>
+
+<main>
+<h2>Produtos Digitais de Limão</h2>
+<div class="products">
+
+<div class="product">
+<img src="images/product_1.png" alt="Bolacha de Limão">
+<div class="product-name">Bolacha de Limão</div>
+<div class="price">120 MZN</div>
+<button onclick="buyProduct(120, 'Bolacha de Limão')">Investir</button>
+</div>
+
+<div class="product">
+<img src="images/product_2.png" alt="Suco de Limão">
+<div class="product-name">Suco de Limão</div>
+<div class="price">250 MZN</div>
+<button onclick="buyProduct(250, 'Suco de Limão')">Investir</button>
+</div>
+
+<div class="product">
+<img src="images/product_3.png" alt="Limão">
+<div class="product-name">Limão</div>
+<div class="price">300 MZN</div>
+<button onclick="buyProduct(300, 'Limão')">Investir</button>
+</div>
+
+<div class="product">
+<img src="images/product_4.png" alt="Limonada">
+<div class="product-name">Limonada</div>
+<div class="price">500 MZN</div>
+<button onclick="buyProduct(500, 'Limonada')">Investir</button>
+</div>
+
+<div class="product">
+<img src="images/product_5.png" alt="Mistura de Limão">
+<div class="product-name">Mistura de Limão</div>
+<div class="price">1060 MZN</div>
+<button onclick="buyProduct(1060, 'Mistura de Limão')">Investir</button>
+</div>
+
+</div>
+</main>
+
+<script src="js/script.js"></script>
+</body>
+</html>
